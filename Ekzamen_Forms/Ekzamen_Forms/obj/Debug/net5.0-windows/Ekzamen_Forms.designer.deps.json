@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Apitron.PDF.Rasterizer/3.0.168": {
+        "runtime": {
+          "lib/net50/Apitron.PDF.Rasterizer.dll": {
+            "assemblyVersion": "3.0.168.0",
+            "fileVersion": "3.0.168.0"
+          }
+        }
+      },
+      "iTextSharp/5.0.5": {
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.5.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "PDFsharp/1.50.5147": {
+        "runtime": {
+          "lib/net20/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          },
+          "lib/net20/PdfSharp.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Apitron.PDF.Rasterizer/3.0.168": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pKWIBVP1TA+zYDgNYj7LFFUQnAuzhS+meiDt5WprSidiJzhl8dvbZ+O3v0JjVyQYvrKKW8MOMyLfpjscfnqA7Q==",
+      "path": "apitron.pdf.rasterizer/3.0.168",
+      "hashPath": "apitron.pdf.rasterizer.3.0.168.nupkg.sha512"
+    },
+    "iTextSharp/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vwda8iRfWwpuNU/JyLYGmBd56J32WVyPZxk51e4p74+4krPNtcfU7WlrNn06aIlGdLvWhsuDNjA0hYK/spp2gA==",
+      "path": "itextsharp/5.0.5",
+      "hashPath": "itextsharp.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "PDFsharp/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr5KBIqcXu2hqZ43UTwPR+jqHgMrT5tsPtJvEF+mORKoBNMh3bRWgAwic0U1sT2IVb4PR5m0GyQxnmCz8jBHWg==",
+      "path": "pdfsharp/1.50.5147",
+      "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    }
+  }
+}
